@@ -1,0 +1,16 @@
+<Alloy>
+    <Window>
+        <View class="top halfScreen">
+            <Label class="font_tittle halfScreen" text="Instagram" />
+            <Label class="font_subtittle" text="Inicia sesión para ver fotos y videos de tus amigos" />
+            <View class="buttons">
+		        <Button class="bottom_place tittle_buttom_right" onClick="signIn">INICIAR SESIÓN</Button>
+		        <Button class="bottom_place tittle_buttom_left" onClick="registry">REGISTRARSE</Button>	
+            </View>
+        </View>
+        <View class="halfScreen bottom">
+            <TextField  id="hint_text_user" class="text_field_bottom"></TextField>
+            <TextField id="hint_text_pass" class="text_field_bottom"></TextField>
+        </View>
+    </Window>
+</Alloy>

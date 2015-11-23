@@ -1,0 +1,133 @@
+/*
+ ".container": {
+	backgroundColor:"white"
+	, 	layout: "vertical"
+}
+
+"Label": {
+	//width: Ti.UI.SIZE,
+	//height: Ti.UI.SIZE,
+	
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+
+".top":{
+	layout: "vertical"
+	, height: "50%"
+}
+
+".middle":{
+	layout: "vertical"
+	, height: "50%"
+}
+
+".bottom":{
+	layout: "vertical"
+	, bottom: "auto"
+}
+*/
+
+"Window":{
+	layout: 'vertical'
+}
+
+".top": {
+    backgroundColor: "red"
+    //height: "50%",
+    //top: 0,
+    , width: Titanium.UI.FILL
+    , layout: 'vertical'
+},
+".middle": {
+    backgroundColor: "green"
+    //bottom: 75, // equals the bottom view height
+    //height: Ti.UI.FILL,
+    ,height: "25%"
+//    top: 50, // equals the top view height
+    ,width: Titanium.UI.FILL
+},
+".bottom": {
+    backgroundColor: "#fff"
+    , layout: 'vertical'
+}
+
+".halfScreen": {
+	height: "50%"
+}
+
+".twentyScreen": {
+	height: "25%"
+}
+
+".bottom_place": {
+	bottom: 0
+}
+
+".font_tittle":{
+	font: {
+		fontFamily: 'Pacifico'
+		, fontSize: 40
+	}
+	, color: "#fff"
+}
+
+".font_subtittle": {
+	textAlign: 'center'
+	, font: {
+		fontFamily: 'Arial'
+		, fontSize: 12
+	}
+	, color: "#fff"
+	, width: "70%"
+}
+
+".horizontal": {
+	layout: 'horizontal'
+}
+
+".tittle_buttom_right": {
+	font: {
+		fontSize: 12
+		, fontWeight: 'bold'
+	}
+	, right: "10%"
+	, backgroundColor: "transparent"
+	, color: "#fff"
+}
+
+".tittle_buttom_left": {
+	font: {
+		fontSize: 12
+		, fontWeight: 'bold'
+	}
+	, left: "10%"
+	, backgroundColor: "transparent"
+	, color: "#fff"
+}
+
+".text_field_bottom": {
+	//borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+	 left: "5%"
+	, color: "black"
+	, hintTextColor: "gray"
+	, top: "10%"
+	, font: {
+		fontSize: 15
+	}
+}
+
+"#hint_text_user": {
+	hintText: "Usuario"
+}
+
+"#hint_text_pass": {
+	hintText: "Contraseña"
+}
+
+
